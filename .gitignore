@@ -1,0 +1,119 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.env
+venv/
+env/
+ENV/
+.venv
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+*.iml
+
+# Database
+*.sqlite3
+db.sqlite3
+db.sqlite3-journal
+
+# Logs
+*.log
+logs/
+log/
+*.pid
+
+# Local settings
+local_settings.py
+
+# Django
+media/
+staticfiles/
+static/
+*.mo
+*.po
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dylib
+*.dll
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+*.coverage
+coverage.xml
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+*.pid
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Uploads
+uploads/
+media/
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+
+# OS specific
+Thumbs.db
+Desktop.ini
+
+# Docker
+.dockerignore
+
+# Node.js (если будет использоваться фронтенд)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python package management
+pip-log.txt
+pip-delete-this-directory.txt
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Profiling data
+.prof
